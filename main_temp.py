@@ -7,6 +7,6 @@ s31=sht31.SHT31(i2c)
 
 
 while(True):
-    data = s31._raw_temp_humi()
+    data = s31.get_temp_humi(celsius=True)
     print(data)
     time.sleep(1)

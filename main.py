@@ -42,12 +42,12 @@ def EastCoastFever():
     if (Fever):
         RelativeTemp = #RelativeTemp()
         if RelativeTemp > 5:
-            
+
             message = f"""
             Subject: East Coast Fever alert!
             
             
-            Our system has diagnosed cow number {num} with possible """
+            Our system has diagnosed cow number {num} possibility of  """
             context = ssl.create_default_context()
             with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
                 server.login(sender_email, password)
