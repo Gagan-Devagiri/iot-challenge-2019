@@ -17,7 +17,6 @@ Your cow died lol
 
 #### EMAIL CONFIG ####
 
-# alive = DeadorAlive() # Dead or alive
 
 
 def DeadorAlive():
@@ -30,13 +29,12 @@ def DeadorAlive():
         with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, message)
-            print("Cow died")
-        return False
+        return "cow died"
     else:
-        print("Cow didn't die")
 
-        return True
-
+        return "cow didn't die"
+alive = DeadorAlive() # Dead or alive
+print(alive)
 
 # def main() 
 # if state:
