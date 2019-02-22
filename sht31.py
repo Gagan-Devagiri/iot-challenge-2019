@@ -73,4 +73,4 @@ class SHT31(object):
             temp = -45 + (175 * (t / 65535))
         else:
             temp = -49 + (315 * (t / 65535))
-        return temp, 100 * (h / 65535)
+        return temp
