@@ -19,7 +19,7 @@ def DeadorAlive():
     global currentTemp
     currentTemp = 40 #celsius
     global currentHeartRate
-    currentHeartRate = 70
+    currentHeartRate = 70 
     if (currentTemp <= 15 and currentHeartRate <= 10) :
         message = """\
 Subject: Your cow died lol!
@@ -64,7 +64,7 @@ def EastCoastFever(Fever):
             x = sendEmail()
             return x
         else:
-            global message
+            
             message = f"""
             Subject: East Coast Fever alert!
 
@@ -74,7 +74,6 @@ def EastCoastFever(Fever):
             x = sendEmail()
             return x
     else:
-        global message
         message = f"""
         Subject: Daily update! (No action required)
 
@@ -91,14 +90,3 @@ else:
 ECF = EastCoastFever(fever)
 if (not fever):
     print("Cow's healthy")
-
-def main():
-    if state:
-        heart rate 
-# def main() 
-# if state:
-#     # heart rate not less than 20.
-#     # temperature not less than 30.
-#     # then declare dead 
-#     return "Dead" # notify farmer that the cow is dead.
-# #else:
