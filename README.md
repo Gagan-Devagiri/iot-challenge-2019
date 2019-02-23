@@ -1,4 +1,4 @@
-# iot-challenge-2019
+# East Coast Detector:
 
 ## Inspiration 
 In developing countries, livestock offer a pathway out of poverty for millions of smallholders. Milk, meat, eggs and other animal products and services provide vital nutrition, income and security for families and their communities. But productivity remains low, and poor animal health an ongoing threat. 
@@ -24,7 +24,7 @@ Using Python & LoPy, we made a smart collar for cows that tracks the health of c
 - Using bluetooth & the LoRa network we could predict other cattles that could be suffering from the disease, we have a model ready, perhaps we could make the model more accurate.
 
 ## Contributers:
-- Gagan
-- Jack
-- Clara
+- Gagan Devagiri
+- Jack Radford
+- Clara Ng
 - Yi Wang
